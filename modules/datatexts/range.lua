@@ -1,8 +1,7 @@
 local E, L, V, P, G = unpack(ElvUI); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB, Localize Underscore
 local DT = E:GetModule('DataTexts')
 
--- LibMapData-1.0 for zone sizes
-local rc = LibStub("LibRangeCheck-2.0")
+local rc = LibStub("LibRangeCheck-3.0")
 local displayString = ''
 local lastPanel
 local int = 1
