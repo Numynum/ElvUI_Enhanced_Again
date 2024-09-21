@@ -357,7 +357,7 @@ local function OnInspectInfo(self, tt, unit, numTries, r, g, b)
 	if not E.db.eel.progression.enable then return end
 	if not (unit and CanInspect(unit)) then return end
 	local level = UnitLevel(unit)
-	if not level or level < MAX_PLAYER_LEVEL then return end
+	if not level or level < GetMaxLevelForLatestExpansion() then return end
 	
 	local guid = UnitGUID(unit)
 	if not PT.progressCache[guid] or (GetTime() - PT.progressCache[guid].timer) > 600 then
