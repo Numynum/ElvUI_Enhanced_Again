@@ -17,7 +17,8 @@ P["eel"]["progression"] = {
         ["vault"] = false,
         ["abberrus"] = false,
         ["amirdrassil"] = false,
-        ["nerubar"] = true,
+        ["nerubar"] = false,
+        ["undermine"] = true,
     },
 }
 
@@ -96,7 +97,7 @@ local function ConfigTable()
                             sepul = { order = -38, type = "toggle", name = "Sepulcher of the First Ones" },
                         }
                     },
-                    dfl = {
+                    df = {
                         order = 8,
                         type = "group",
                         name = "Dragonflight",
@@ -120,6 +121,7 @@ local function ConfigTable()
                         disabled = function() return not E.db.eel.progression.enable end,
                         args = {
                             nerubar = { order = -36, type = "toggle", name = "Nerub-ar Palace" },
+                            undermine = { order = -37, type = "toggle", name = "Liberation of Undermine" },
                         }
                     },
                 },

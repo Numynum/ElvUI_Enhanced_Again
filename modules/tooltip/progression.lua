@@ -30,6 +30,7 @@ PT.tiers["LONG"] = {
 		"Abberrus, the Shadowed Crucible",
 		"Amirdrassil, the Dream's Hope",
 		"Nerub-ar Palace",
+		"Liberation of Undermine",
 }
 PT.tiers["SHORT"] = {
 		"ULD",
@@ -44,6 +45,7 @@ PT.tiers["SHORT"] = {
 		"ASC",
 		"ADH",
 		"NP",
+		"LoU",
 }
 
 PT.bosses = {
@@ -249,7 +251,8 @@ PT.bosses = {
 				19348, 19352, 19353, 19354, 19355, 19356, 19357, 19358, 19359
 			},
 		},
-	},	{ -- Nerub-ar Palace
+	},
+	{ -- Nerub-ar Palace
 		["option"] = "nerubar",
 		["statIDs"] = {
 			{ -- Mythic
@@ -263,6 +266,23 @@ PT.bosses = {
 			},
 			{ -- LFR
 				40267, 40271, 40275, 40279, 40283, 40287, 40291, 40295
+			},
+		},
+	},
+	{ -- Liberation of Undermine
+		["option"] = "undermine",
+		["statIDs"] = {
+			{ -- Mythic
+				41302, 41306, 41310, 41314, 41318, 41322, 41326, 41330
+			},
+			{ -- Heroic
+				41301, 41305, 41309, 41313, 41317, 41321, 41325, 41329
+			},
+			{ -- Normal
+				41300, 41304, 41308, 41312, 41316, 41320, 41324, 41328
+			},
+			{ -- LFR
+				41299, 41303, 41307, 41311, 41315, 41319, 41323, 41327
 			},
 		},
 	},
