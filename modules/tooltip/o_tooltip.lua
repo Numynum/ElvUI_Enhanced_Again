@@ -19,6 +19,7 @@ P["eel"]["progression"] = {
         ["amirdrassil"] = false,
         ["nerubar"] = false,
         ["undermine"] = true,
+        ["manaforge"] = true,
     },
 }
 
@@ -122,6 +123,7 @@ local function ConfigTable()
                         args = {
                             nerubar = { order = -36, type = "toggle", name = "Nerub-ar Palace" },
                             undermine = { order = -37, type = "toggle", name = "Liberation of Undermine" },
+                            manaforge = { order = -38, type = "toggle", name = "Manaforge Omega" },
                         }
                     },
                 },
